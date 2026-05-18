@@ -35,9 +35,19 @@ export default function SmartFarePage() {
       <h1 className="text-5xl md:text-7xl font-black text-[#1C1C1E] tracking-tight mb-4">
         SmartFare
       </h1>
-      <p className="text-xl text-gray-500 mb-14 leading-relaxed">
+      <p className="text-xl text-gray-500 mb-6 leading-relaxed">
         Modern fare comparison system.
       </p>
+
+      {/* Live Demo */}
+      <a
+        href="https://smart-fare-kappa.vercel.app/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex items-center gap-2 px-5 py-2.5 bg-[#5856D6] text-white text-sm font-medium rounded-full hover:bg-[#4644c0] transition-colors mb-14"
+      >
+        View Live Demo ↗
+      </a>
 
       <hr className="border-[#E5E5EA] mb-14" />
 
