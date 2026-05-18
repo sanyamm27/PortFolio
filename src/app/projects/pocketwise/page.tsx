@@ -41,7 +41,7 @@ export default function PocketWisePage() {
 
       {/* Live Demo */}
       <a
-        href="https://pocket-wise-git-main-sanyamm27s-projects.vercel.app"
+        href="https://pocket-wise-alpha.vercel.app/login"
         target="_blank"
         rel="noopener noreferrer"
         className="inline-flex items-center gap-2 px-5 py-2.5 bg-[#5856D6] text-white text-sm font-medium rounded-full hover:bg-[#4644c0] transition-colors mb-14"

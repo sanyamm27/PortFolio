@@ -55,7 +55,7 @@ export function CaseStudies() {
               <div className="w-3 h-3 rounded-full bg-green-400" />
               <div className="flex-1 mx-4">
                 <div className="bg-gray-100 rounded-md h-5 flex items-center px-3 max-w-xs">
-                  <span className="text-[11px] text-gray-400 font-mono">pocketwise.vercel.app</span>
+                  <span className="text-[11px] text-gray-400 font-mono">pocket-wise-alpha.vercel.app</span>
                 </div>
               </div>
             </div>
