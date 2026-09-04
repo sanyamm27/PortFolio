@@ -21,7 +21,58 @@ export function CaseStudies() {
           My Projects
         </h2>
 
-        {/* ── Project #1 — PocketWise ── */}
+        {/* ── Project #1 — Revenue Recovery Engine ── */}
+        <div className="flex flex-col gap-8">
+          <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6">
+            <div className="max-w-2xl">
+              <p className="text-xs font-bold tracking-widest uppercase text-[#5856D6] mb-3">
+                Project Spotlight
+              </p>
+              <h3 className="text-3xl font-black text-[#1C1C1E] mb-1">Revenue Recovery Engine</h3>
+              <p className="text-sm font-medium text-gray-400 mb-4">
+                Autonomous AI-driven payment retry and revenue optimization platform.
+              </p>
+              <p className="text-base text-gray-500 leading-relaxed">
+                An intelligent fintech platform that optimizes failed payment retries, minimizes
+                transaction churn, and recovers lost revenue using real-time predictive analytics
+                and ML decision boundary models.
+              </p>
+            </div>
+
+            <Link
+              href="/projects/revenue-recovery-engine"
+              className="inline-flex items-center gap-2 px-6 py-3 bg-[#1C1C1E] text-white text-sm font-medium rounded-full hover:bg-[#5856D6] transition-colors self-start md:self-end flex-shrink-0"
+            >
+              View Technical Deep-Dive →
+            </Link>
+          </div>
+
+          {/* Browser Mockup */}
+          <div className="w-full bg-white border border-[#E5E5EA] rounded-3xl overflow-hidden shadow-sm">
+            <div className="h-10 bg-gray-50 border-b border-[#E5E5EA] flex items-center px-4 gap-2 flex-shrink-0">
+              <div className="w-3 h-3 rounded-full bg-red-400" />
+              <div className="w-3 h-3 rounded-full bg-yellow-400" />
+              <div className="w-3 h-3 rounded-full bg-green-400" />
+              <div className="flex-1 mx-4">
+                <div className="bg-gray-100 rounded-md h-5 flex items-center px-3 max-w-xs">
+                  <span className="text-[11px] text-gray-400 font-mono">revenue-recovery.vercel.app</span>
+                </div>
+              </div>
+            </div>
+            <div className="w-full bg-gray-50 flex items-center justify-center">
+              <Image
+                src="/assets/revenue-recovery-engine-gallery/revenue-recover-engine-overview.png"
+                alt="Revenue Recovery Engine — main interface screenshot"
+                width={1280}
+                height={800}
+                className="w-full h-auto object-contain"
+                priority
+              />
+            </div>
+          </div>
+        </div>
+
+        {/* ── Project #2 — PocketWise ── */}
         <div className="flex flex-col gap-8">
           <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6">
             <div className="max-w-2xl">
