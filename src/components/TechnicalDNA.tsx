@@ -5,15 +5,19 @@ import { motion } from "framer-motion";
 const skillGroups = [
   {
     category: "Development",
-    skills: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
+    skills: ["Next.js", "React", "JavaScript", "HTML / CSS"],
   },
   {
     category: "Systems",
-    skills: ["SQL", "Database Management", "Git / Version Control"],
+    skills: ["SQL", "Database Management (DBMS)", "Git / GitHub", "Firebase"],
   },
   {
-    category: "Logic",
-    skills: ["Finite Automata", "Theory of Computation", "Pattern Recognition"],
+    category: "Core CS",
+    skills: [
+      "Object-Oriented Programming",
+      "Data Structures & Algorithms",
+      "Machine Learning",
+    ],
   },
 ];
 

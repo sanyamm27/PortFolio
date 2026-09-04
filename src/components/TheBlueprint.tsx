@@ -34,9 +34,7 @@ export function TheBlueprint() {
           I&apos;m Sanyam
         </h1>
         <p className="text-lg md:text-xl text-[#1C1C1E] leading-relaxed mb-8 max-w-md">
-          A 3rd-year CS Student &amp; Digital Architect bridging the gap between
-          secure backend logic and immersive 3D art. I focus on building tools
-          that are as powerful as they are visually compelling.
+          A final-year CS student building full-stack web applications with practical AI/ML integrations — from secure payment systems to automated decision engines. I focus on writing clean, reliable code that solves real problems, blending frontend polish with backend logic.
         </p>
         <Link
           href="#work"
